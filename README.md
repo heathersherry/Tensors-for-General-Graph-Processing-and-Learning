@@ -1,11 +1,6 @@
 ## Tensors-for-General-Graph-Processing-and-Learning
 
-### Graph Data Processing and Query on Tensors
-1. Tensors: An abstraction for general data processing (VLDB 2021) (The Hummingbird project) [[Paper](http://vldb.org/pvldb/vol14/p1797-koutsoukos.pdf)] [[Github](https://github.com/microsoft/hummingbird)]
-> * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications.
-> * Section 4 mentions that tensors are applicable to complex query such as selection, join and aggration, but there is no detail or exmaple provided in the paper (except for cardinality calculation).
-
-### Graph Algorithms on Tensors
+### Graph Algorithms in Linear Algebra Representation
 Note: The idea of linear representation of graph algorithms has been under active community development since 2013.
 1. Standards for Graph Algorithm Primitives [[Paper](http://www.netlib.org/utk/people/JackDongarra/PAPERS/GraphPrimitives-HPEC.pdf)]
 > * The representation of graphs as sparse matrices allows many graph algorithms to be represented in terms of a modest set of linear algebra operations
@@ -16,6 +11,12 @@ Note: The idea of linear representation of graph algorithms has been under activ
 > * Summary 1: There are still graph algorithms that have any known algebraic representation: maximal clique enumeration problem, A* search, community detection methods, network flow, traveling salesman...
 > * Summary 2: There are a group of algorithms that do not have satisfactory efficiecny in GraphBLAS: Algorithms that are inherently sequential such as depth-first search, and algorithms that use priority queues such as Dijkstra’s algorithm.”
 3. LAGraph: A Community Effort to Collect Graph Algorithms Built on Top of the GraphBLAS
+
+### Graph Data Processing and Query on Tensors
+1. Tensors: An abstraction for general data processing (VLDB 2021) (The Hummingbird project) [[Paper](http://vldb.org/pvldb/vol14/p1797-koutsoukos.pdf)] [[Github](https://github.com/microsoft/hummingbird)]
+> * Motivation: The implementations of GraphBLAS turn out to be suboptimal when executed over TCRs, because they rely on sparse representations of the graph, while TCRs are not efficient for sparse computations. Hence, novel implementations are required...
+> * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications, e.g, PageRANK.
+> * Section 4 also mentions that tensors are applicable to complex query such as selection, join and aggration, but there is no detail or exmaple provided in the paper (except for cardinality calculation).
 
 ### Machine Learning on Tensors 
 
