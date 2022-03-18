@@ -23,14 +23,14 @@ __Related Reading__
 > *  This article surveys the key issues of graph processing on GPUs, including data layout, memory access pattern, workload mapping, and specific GPU programming.
 2. Graph Algorithms in the Language of Linear Algebra (The GALLA Book 2011) [[Slides](https://sites.cs.ucsb.edu/~gilbert/cs240a/slides/old/cs240a-GALA.pdf)]
 
-### Graph Data Processing and Query on Tensors
+### Graph Data Processing (and Query) on Tensors
 1. Tensors: An abstraction for general data processing (VLDB 2021) (The Hummingbird project) [[Paper](http://vldb.org/pvldb/vol14/p1797-koutsoukos.pdf)] [[Github](https://github.com/microsoft/hummingbird)]
 > * Motivation: The implementations of GraphBLAS turn out to be suboptimal when executed over TCRs, because they rely on sparse representations of the graph, while TCRs are not efficient for sparse computations. Hence, novel implementations are required...
 > * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications, e.g, PageRANK.
 > * Section 4 also mentions that tensors are applicable to complex query such as selection, join and aggration, but there is no detail or exmaple provided in the paper (except for cardinality calculation).
 
 ### Machine Learning on Tensors 
-
+1. Tensor Relational Algebra for Distributed Machine Learning System Design (VLDB 2021) [[Paper](http://www.vldb.org/pvldb/vol14/p1338-yuan.pdf)]
 2. Exploiting tensor networks for efficient machine learning (PhD thesis) [[Link](https://hub.hku.hk/handle/10722/308618)]
 > * This thesis explores the tensorization and compression of machine learning models (SVMs and RBMs).
 3. A Tensor Compiler for Unified Machine Learning Prediction Serving (OSDI 2020) (The Hummingbird project) [[Paper](https://web.eecs.umich.edu/~mosharaf/Readings/Hummingbird.pdf)]
@@ -39,12 +39,15 @@ __Related Reading__
 > * It compile classical ML pipelines end-to-end into tensor computations. It thereby seamlessly leverages the features provided by DNN inference systems, e.g., ease of deployment, operator optimizations and GPU support.
 
 ### Graph Representation and Learning on Tensors
+__Note:__ So far, the papers in this category still focus on model design, instead of tensor computation.
 1. Tensor Graph Convolutional Networks for Prediction on Dynamic Graphs (submitted to ICLR 2019, but rejected) [[Paper](https://openreview.net/forum?id=rylVTTVtvH)]
-> * This work learns embeddings of dynamic graphs based on a tensor algebra framework
-> * Tensor M-product technique
+> * This work learns embeddings of dynamic graphs based on a tensor algebra framework.
+> * Tensor M-product technique.
 > * Comments: (1) the proposed tensor method lacks novelty, (2) the theoretical analysis is artificial, and (3) the empirical study does not cover enough benchmarks. 
 2. Dynamic Graph Convolutional Networks Using the Tensor M-Product (SDM 2019) [[Paper](https://arxiv.org/pdf/1910.07643)] [[Github](https://github.com/IBM/TM-GCN)]
-> * This work combines adjancency tensor and feature tensor.
+> * This work combines adjancency tensor and feature tensor
+3. Tensor Graph Convolutional Networks for Multi-relational and Robust Learning (arxiv 2020) [[Paper](https://arxiv.org/abs/2003.07729)]
+
 
 ### Related Readings
 1. Tensor Algebra and Tensor Analysis for Engineers (2015) [[Springer](https://link.springer.com/book/10.1007/978-3-319-16342-0)]
@@ -54,6 +57,4 @@ __Related Reading__
 > * Tutorial: How to store a Tensor? [[Link](https://blog.csdn.net/ZM_Yang/article/details/105587634)]
 6. Tensor Processing Primitives: A Programming Abstraction for Efficiency and Portability in Deep Learning & HPC Workloads (Arxiv 2021) [[Paper](https://arxiv.org/pdf/2104.05755.pdf)]
 7. FreeTensor: A Free-form DSL with Holistic Optimization for Irregular Tensor Programs (accpeted in PLDI 2022, no source yet)
-8. Graphs, Matrices, and the GraphBLAS: Seven Good Reasons (ICCS 2015)
 9. Tensor Completion for Weakly-Dependent Data on Graph for Metro Passenger Flow Prediction (AAAI 2020) [[Paper](https://ojs.aaai.org//index.php/AAAI/article/view/5915)]
-10. Tensor Graph Convolutional Networks for Multi-relational and Robust Learning (arxiv 2020) [[Paper](https://arxiv.org/abs/2003.07729)]
