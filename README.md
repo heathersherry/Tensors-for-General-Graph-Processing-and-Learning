@@ -24,6 +24,15 @@ __Related Reading__
 > *  This article surveys the key issues of graph processing on GPUs, including data layout, memory access pattern, workload mapping, and specific GPU programming.
 2. Graph Algorithms in the Language of Linear Algebra (The GALLA Book 2011) [[Slides](https://sites.cs.ucsb.edu/~gilbert/cs240a/slides/old/cs240a-GALA.pdf)]
 
+__BFS__
+1. A good example of BFS in vector-matrix multiplication [[Slides](https://archive.fosdem.org/2020/schedule/event/graphblas/attachments/slides/4132/export/events/attachments/graphblas/slides/4132/graphblas_introduction.pdf)]
+2. Direction-Optimizing Breadth-First Search (SC 2012, adopted to GraphBLAS in 2018)
+> * Switches between push (𝐯𝐀) and pull (𝐀 ⊤𝐯) during execution:
+>> Use the push direction when the frontier is small; Use the pull direction when the frontier becomes large
+3.  High-performance linear algebra-based graph framework on the GPU (PhD thesis, UC Davis 2019)
+4.  Implementing Push-Pull Efficiently in GraphBLAS (ICPP 2018)
+5. GraphBLAS: Concepts, algorithms, and applications (Scheduling Workshop 2019)
+
 ### Graph Data Processing (and Query) on Tensors
 1. Tensors: An abstraction for general data processing (VLDB 2021) (The Hummingbird project) [[Paper](http://vldb.org/pvldb/vol14/p1797-koutsoukos.pdf)] [[Github](https://github.com/microsoft/hummingbird)]
 > * Motivation: The implementations of GraphBLAS turn out to be suboptimal when executed over TCRs, because they rely on sparse representations of the graph, while TCRs are not efficient for sparse computations. Hence, novel implementations are required...
