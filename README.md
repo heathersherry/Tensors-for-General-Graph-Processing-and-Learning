@@ -38,6 +38,8 @@ __BFS__
 > * Motivation: The implementations of GraphBLAS turn out to be suboptimal when executed over TCRs, because they rely on sparse representations of the graph, while TCRs are not efficient for sparse computations. Hence, novel implementations are required...
 > * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications, e.g, PageRANK.
 > * Section 4 also mentions that tensors are applicable to complex query such as selection, join and aggration, but there is no detail or exmaple provided in the paper (except for cardinality calculation).
+2. Graph Traversal with Tensor Functionals: A Meta-Algorithm for Scalable Learning [[Paper](https://openreview.net/forum?id=6DOZ8XNNfGN)]
+
 
 ### Machine Learning on Tensors 
 1. Tensor Relational Algebra for Distributed Machine Learning System Design (VLDB 2021) [[Paper](http://www.vldb.org/pvldb/vol14/p1338-yuan.pdf)]
