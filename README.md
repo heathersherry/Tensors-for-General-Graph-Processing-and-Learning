@@ -38,7 +38,7 @@ __BFS__
 > * Motivation: The implementations of GraphBLAS turn out to be suboptimal when executed over TCRs, because they rely on sparse representations of the graph, while TCRs are not efficient for sparse computations. Hence, novel implementations are required...
 > * This work explores to what extent Tensor Computation Runtimes (TCRs) can support *non-ML* data processing applications, e.g, PageRANK.
 > * Section 4 also mentions that tensors are applicable to complex query such as selection, join and aggration, but there is no detail or exmaple provided in the paper (except for cardinality calculation).
-2. Graph Traversal with Tensor Functionals: A Meta-Algorithm for Scalable Learning [[Paper](https://openreview.net/forum?id=6DOZ8XNNfGN)]
+2. Graph Traversal with Tensor Functionals: A Meta-Algorithm for Scalable Learning (ICLR 2021) [[Paper](https://openreview.net/forum?id=6DOZ8XNNfGN)]
 
 
 ### Machine Learning on Tensors 
@@ -48,6 +48,8 @@ __BFS__
 > * It compiles featurization operators and traditional ML models (e.g., decision trees) into a small set of tensor operations.
 3. Compiling Classical ML Pipelines into Tensor Computations for One-size-fits-all Prediction Serving (System for ML Workshop, NeurIPS 2019) (The Hummingbird project) [[Paper](http://learningsys.org/neurips19/assets/papers/27_CameraReadySubmission_Hummingbird%20(5).pdf)]
 > * It compile classical ML pipelines end-to-end into tensor computations. It thereby seamlessly leverages the features provided by DNN inference systems, e.g., ease of deployment, operator optimizations and GPU support.
+4. WindTunnel: Towards Differentiable ML Pipelines Beyond a Single Model (VLDB 2021) [[Paper](https://dl.acm.org/doi/pdf/10.14778/3485450.3485452)]
+> * It extends HummingBird by enabling conversion of pipelines into differential modules.
 
 ### Graph Representation and Learning on Tensors
 __Note:__ So far, the papers in this category still focus on model design, instead of tensor computation.
