@@ -65,13 +65,26 @@ __Note:__ So far, the papers in this category still focus on model design, inste
 1. Tensor Relational Algebra for Distributed Machine Learning System Design (VLDB 2021) [[Paper](http://www.vldb.org/pvldb/vol14/p1338-yuan.pdf)]
 2. There are a set of studies about relation algebra in LA in GraphBLAS [[A good summary](http://mit.bme.hu/~szarnyas/grb/graphblas-outlook-to-other-fields.pdf)]
 3. Serving Deep Learning Models with Deduplication from Relational Databases (arxiv 2021) [[Paper](https://arxiv.org/pdf/2201.10442.pdf)]
+4. Query Processing on Tensor Computation Runtimes [[Paper](https://arxiv.org/pdf/2203.01877.pdf)] [[Blog](https://medium.com/syncedreview/meet-tqp-the-first-query-processor-to-run-on-tensor-computation-runtimes-delivers-up-to-20x-7d1f09d3b9f8)] [[News](https://www.marktechpost.com/2022/03/13/researchers-from-the-university-of-washington-and-uc-san-diego-introduce-tensor-query-processor-tqp-with-tensor-computation-runtimes-for-query-processing-20x-speedup/)]
+> * Tensor Query Processor (TQP): a SQL query processor leveraging the tensor interface of TCRs
+5. 
 
-### Related Readings
+### Related Readings and Background Materials
 1. Tensor Algebra and Tensor Analysis for Engineers (2015) [[Springer](https://link.springer.com/book/10.1007/978-3-319-16342-0)]
 2. Deep-Learning-with-PyTorch (book)
 > * Chapter 2: It starts with a tensor
 > * Chapter 3: Representing the real-world data with tensors
 > * Tutorial: How to store a Tensor? [[Link](https://blog.csdn.net/ZM_Yang/article/details/105587634)]
 6. Tensor Processing Primitives: A Programming Abstraction for Efficiency and Portability in Deep Learning & HPC Workloads (Arxiv 2021) [[Paper](https://arxiv.org/pdf/2104.05755.pdf)]
-7. FreeTensor: A Free-form DSL with Holistic Optimization for Irregular Tensor Programs (accpeted in PLDI 2022, no source yet)
+> * Tensor Processing Primitives (TPP): a programming abstraction striving for efficient and portable implementation of Tensor operations, with a special focus on DL workloads. 
+> * TPPs define a set of relatively low-level primitive operators on 2D Tensors, which in turn can be used as basic building blocks to construct more complex operators on high-dimensional tensors. T
+8. FreeTensor: A Free-form DSL with Holistic Optimization for Irregular Tensor Programs (accpeted in PLDI 2022, no source yet)
 9. Tensor Completion for Weakly-Dependent Data on Graph for Metro Passenger Flow Prediction (AAAI 2020) [[Paper](https://ojs.aaai.org//index.php/AAAI/article/view/5915)]
+10. A brief survey of tensors [[Slides 1](https://www.slideshare.net/BertonEarnshaw/a-brief-survey-of-tensors)] [[Slides 2](https://documents.pub/document/a-brief-survey-of-tensors.html?page=1)] 
+> * Introduction to the Tensor Train Decomposition and Its Applications in Machine Learning [[Slides](https://bayesgroup.github.io/team/arodomanov/tt_hse16_slides.pdf)]
+> * Most Tensor Problems are NP-Hard (2013) [[Paper](https://arxiv.org/pdf/0911.1393.pdf)]
+> * Hardware-Enabled Efficient Data Processing with Tensor-Train Decomposition [[Paper](https://web.ece.ucsb.edu/~zhengzhang/journals/2021_TCAD_Qu_TTEngine.pdf)]
+> * The Tensor-Train Format and Its Applications (PhD thesis) [[Thesis](https://refubium.fu-berlin.de/bitstream/handle/fub188/3366/dissertation_pg_final.pdf?sequence=1)]
+11. Generating Efficient Tensor Contractions for GPUs [[Paper](https://www.mcs.anl.gov/papers/P5361-0615.pdf)]
+12. TENSOR NETWORK SKELETONIZATION (2017) [[Paper](https://web.stanford.edu/~lexing/tns.pdf)]
+
