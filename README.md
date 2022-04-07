@@ -19,10 +19,7 @@ Note: The idea of linear representation of graph algorithms has been under activ
 - LAGraph: A Community Effort to Collect Graph Algorithms Built on Top of the GraphBLAS (What’s next for the GraphBLAS?)
 - GraphBLAS materials [[Link](http://mit.bme.hu/~szarnyas/grb/)]
 - GraphBLAS in Python [[Github](https://github.com/Graphegon/pygraphblas)]
-- 
-3. Navigating the Maze of Graph Analytics Frameworks using Massive Graph Datasets (SIGMOD
-4.  2014) [[Paper](https://mobisocial.stanford.edu/papers/sigmod14n.pdf)]
-
+3. Navigating the Maze of Graph Analytics Frameworks using Massive Graph Datasets (SIGMOD 2014) [[Paper](https://mobisocial.stanford.edu/papers/sigmod14n.pdf)]
 
 __Related Reading__
 1. Graph Processing on GPUs: A Survey [[Paper](https://www.dcs.warwick.ac.uk/~liganghe/papers/ACM-Computing-Surveys-2017.pdf)]
@@ -31,7 +28,6 @@ __Related Reading__
 3. Industrial implementaion of GraphBLAS
 > - Huawei GraphBLAS [[Gitee](https://gitee.com/CSL-ALP/graphblas)]
 > - IBM GraphBLAS [[Github](https://github.com/IBM/ibmgraphblas)]
-
 
 __BFS__
 1. A good example of BFS in vector-matrix multiplication [[Slides](https://archive.fosdem.org/2020/schedule/event/graphblas/attachments/slides/4132/export/events/attachments/graphblas/slides/4132/graphblas_introduction.pdf)]
