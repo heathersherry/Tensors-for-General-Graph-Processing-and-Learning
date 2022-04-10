@@ -98,6 +98,11 @@ __Note:__ So far, the papers in this category still focus on model design, inste
 4. Query Processing on Tensor Computation Runtimes [[Paper](https://arxiv.org/pdf/2203.01877.pdf)] [[Blog](https://medium.com/syncedreview/meet-tqp-the-first-query-processor-to-run-on-tensor-computation-runtimes-delivers-up-to-20x-7d1f09d3b9f8)] [[News](https://www.marktechpost.com/2022/03/13/researchers-from-the-university-of-washington-and-uc-san-diego-introduce-tensor-query-processor-tqp-with-tensor-computation-runtimes-for-query-processing-20x-speedup/)]
 > * Tensor Query Processor (TQP): a SQL query processor leveraging the tensor interface of TCRs
 
+### Tensor Compilers
+1. A High-Performance Sparse Tensor Algebra Compiler in Multi-Level IR [[Paper](https://arxiv.org/pdf/2102.05187.pdf)]
+2. THE CORA TENSOR COMPILER: COMPILATION FOR RAGGED TENSORS WITH MINIMAL PADDING [[Paper](https://www.pdl.cmu.edu/ftp/BigLearning/fegade-2110.10221.pdf)]
+> * They propose a compiler-based solution enabling easy and more portable generation of performant code for ragged operators. While sparse (Tian et al.,
+2021; Kjolstad et al., 2017) and dense (Chen et al., 2018a; Vasilache et al., 2018; Ragan-Kelley et al., 2013; Baghdadi et al., 2019) tensor compilers have been well-studied, it is not straightforward to apply these techniques to ragged tensors.
 
 ### Related Readings and Background Materials
 1. Tensor Algebra and Tensor Analysis for Engineers (2015) [[Springer](https://link.springer.com/book/10.1007/978-3-319-16342-0)]
