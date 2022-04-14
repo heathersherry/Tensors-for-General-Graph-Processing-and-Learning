@@ -127,3 +127,4 @@ __Note:__ So far, the papers in this category still focus on model design, inste
 primitives (BFS, BC, SSSP, CC, and PageRank).
 14. [About CSR] Graph Storage: How good is CSR really? [[Paper](https://db.in.tum.de/teaching/ws1718/seminarHauptspeicherdbs/paper/valiyev.pdf)] 
 15. An Experimental Comparison of Pregel-like Graph Processing Systems [[Paper](https://www.vldb.org/pvldb/vol7/p1047-han.pdf)]
+16. A lightweight infrastructure for graph analytics [[Paper](https://dl.acm.org/doi/10.1145/2517349.2522739)]
