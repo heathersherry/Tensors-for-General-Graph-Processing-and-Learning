@@ -125,3 +125,5 @@ __Note:__ So far, the papers in this category still focus on model design, inste
 13. The Gunrock series [[Link](https://gunrock.github.io/docs/#/gunrock/publications_and_presentations)]
 > * Gunrock: A High-Performance Graph Processing Library on the GPU [[Paper](https://arxiv.org/pdf/1501.05387.pdf)], which evaluate Gunrock on five graph
 primitives (BFS, BC, SSSP, CC, and PageRank).
+14. [About CSR] Graph Storage: How good is CSR really? [[Paper](https://db.in.tum.de/teaching/ws1718/seminarHauptspeicherdbs/paper/valiyev.pdf)] 
+15. An Experimental Comparison of Pregel-like Graph Processing Systems [[Paper](https://www.vldb.org/pvldb/vol7/p1047-han.pdf)]
