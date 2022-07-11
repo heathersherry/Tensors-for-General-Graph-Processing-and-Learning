@@ -132,3 +132,4 @@ primitives (BFS, BC, SSSP, CC, and PageRank).
 17. [GraphBLAST] Design Principles for Sparse Matrix Multiplication on the GPU [[Paper](https://ehttps://www.pdl.cmu.edu/ftp/BigLearning/fegade-2110.10221.pdfscholarship.org/uc/item/5h35w3b7)]
 18. THE CORA TENSOR COMPILER: COMPILATION FOR RAGGED TENSORS WITH MINIMAL PADDING [[Paper](https://www.pdl.cmu.edu/ftp/BigLearning/fegade-2110.10221.pdf)]
 19. A High-Performance Sparse Tensor Algebra Compiler in Multi-Level IR (arxiv) [[Paper](https://arxiv.org/pdf/2102.05187.pdf)]
+20. About torch.Tensor [[Link](https://zhuanlan.zhihu.com/p/51323438)]
