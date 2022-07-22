@@ -133,3 +133,4 @@ primitives (BFS, BC, SSSP, CC, and PageRank).
 18. THE CORA TENSOR COMPILER: COMPILATION FOR RAGGED TENSORS WITH MINIMAL PADDING [[Paper](https://www.pdl.cmu.edu/ftp/BigLearning/fegade-2110.10221.pdf)]
 19. A High-Performance Sparse Tensor Algebra Compiler in Multi-Level IR (arxiv) [[Paper](https://arxiv.org/pdf/2102.05187.pdf)]
 20. About torch.Tensor [[Link](https://zhuanlan.zhihu.com/p/51323438)]
+21. python scipy 稀疏矩阵详解 [[Link](https://blog.csdn.net/jeffery0207/article/details/100064602)]
