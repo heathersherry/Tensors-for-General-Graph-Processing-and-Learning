@@ -21,6 +21,8 @@ Note: The idea of linear representation of graph algorithms has been under activ
 - GraphBLAS in Python [[Github](https://github.com/Graphegon/pygraphblas)]
 - GraphBLAST [[Github](https://github.com/gunrock/graphblast)]
 3. Navigating the Maze of Graph Analytics Frameworks using Massive Graph Datasets (SIGMOD 2014) [[Paper](https://mobisocial.stanford.edu/papers/sigmod14n.pdf)]
+4. A reduced-precision streaming SpMV architecture for Personalized PageRank on FPGA
+
 
 __Related Reading__
 1. Graph Processing on GPUs: A Survey [[Paper](https://www.dcs.warwick.ac.uk/~liganghe/papers/ACM-Computing-Surveys-2017.pdf)]
